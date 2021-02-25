@@ -1,5 +1,9 @@
 # Crosstool-NG [![Build Status][travis-status]][travis]
 
+This repo adds two patches from 
+https://github.com/thierer/esp-open-sdk 
+which allow it to build on Arch Linux
+
 Crosstool-NG follows the `autoconf` dance. So, to get you
 kick-started, just run:
 

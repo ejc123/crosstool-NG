@@ -1,0 +1,24 @@
+diff a/gdb/configure b/gdb/configure
+--- a/gdb/configure	2015-08-28 16:22:07.000000000 -0500
++++ b/gdb/configure	2021-02-25 06:26:43.964808066 -0600
+@@ -9101,7 +9101,7 @@
+ 
+ 
+ 
+-try_guile_versions="guile-2.2 guile-2.0"
++try_guile_versions="guile-2.0"
+ have_libguile=no
+ case "${with_guile}" in
+ no)
+diff a/gdb/configure.ac b/gdb/configure.ac
+--- a/gdb/configure.ac	2015-08-28 16:22:07.000000000 -0500
++++ b/gdb/configure.ac	2021-02-25 06:26:44.028809224 -0600
+@@ -1135,7 +1135,7 @@
+ dnl We check guile with pkg-config.
+ AC_PATH_PROG(pkg_config_prog_path, pkg-config, missing)
+ 
+-try_guile_versions="guile-2.2 guile-2.0"
++try_guile_versions="guile-2.0"
+ have_libguile=no
+ case "${with_guile}" in
+ no)
